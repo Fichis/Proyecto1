@@ -1,0 +1,107 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: #f6f7d0;
+}
+
+form{
+    padding: 1em;
+    box-sizing: border-box;
+    width: 70%;
+    margin: 20px auto;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+textarea{
+    padding: 1em;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="submit"] {
+    padding: 1em;
+    background-color: darkblue;
+    border: none;
+    border-radius: 0.5em;
+    color: white;
+    font-weight: bolder;
+}
+
+#delete{
+    padding: 1em;
+    background-color: red;
+    border: none;
+    border-radius: 0.5em;
+    color: white;
+    font-weight: bolder;
+}
+
+#create{
+    padding: 1em;
+    background-color: #50ff50;
+    border: none;
+    border-radius: 0.5em;
+    color: white;
+    font-weight: bolder;
+}
+
+.notes-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    padding: 1em;
+    margin: 2em 1em;
+}
+
+.notes-container a{
+    text-decoration: none;
+    color: white;
+}
+
+.note-preview{
+    background-color: darkblue;
+    width: 14em;
+    height: 14em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1em solid transparent;
+    border-radius: 4.5em;
+    overflow: hidden;
+}
+
+.note-preview:hover{
+    border: solid 1em #f6f7d0;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    padding: 0.5em;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2em;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 1.5em 2em;
+}
+
+nav ul li a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 2em;
+}
